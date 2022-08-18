@@ -14,10 +14,6 @@ app.use(express.static(path.join(__dirname,'public')))
 const router = require('./routes/router')
 app.use(router.routes)
 
-/*
-app.get('/',(req, res)=>{
-    res.send('Dashboard con node Js')
-})*/
 
 app.listen(3000, ()=> {
     console.log('Server up running in http://localhost:3000 ')

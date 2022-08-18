@@ -9,12 +9,12 @@ const vistaTables = (req, res)=>{
     res.render('tables')
 }
 
-const vistaNotifications = (req, res)=>{
-    res.render('notifications')
+const vistaTendencia = (req, res)=>{
+    res.render('tendencia')
 }
 
 module.exports = {
     vistaPrincipal,
     vistaTables,
-    vistaNotifications
+    vistaTendencia
 }
